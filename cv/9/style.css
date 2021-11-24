@@ -1,0 +1,25 @@
+#maPhoto{
+    float: left;
+    width: auto;
+    height: 200px;
+    border-radius: 50% 50%;
+    display: flex;
+
+}
+#identité{
+    background-color:rgb(58, 58, 146);
+    display:flex;
+}
+#FormationsLeft{
+    float: left;
+}
+#langues{
+    float:left
+}
+#left{
+    float:left;
+    padiding-left:30%;
+}
+#pied{
+    background-color: rgb(58, 58, 146);
+}

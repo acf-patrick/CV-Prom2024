@@ -1,0 +1,132 @@
+@font-face {
+    font-family: ubuntu;
+    src: url("assets/Ubuntu-R.ttf");
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: ubuntu;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.wrapper p {
+    font-size: 1.2rem;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+aside {
+    background-color: #423b3e;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 360px;
+}
+
+.identity {
+    display: grid;
+    justify-items: center;
+    position: relative;
+    top: 5rem;
+    color: white;
+}
+
+.identity .name {
+    position: relative;
+    top: 2rem;
+    border-top: 1px solid white;
+}
+
+.identity .nom {
+    font-weight: bold;
+}
+
+.identity .nom, .identity .prenom {
+    font-size: 2rem;
+}
+
+.identity .nom, .identity .age {
+    text-align: center;
+}
+
+.identity .photo {    
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15rem;
+    border: 1px solid white;
+}
+
+.identity .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom {
+    align-self: end;
+    position: relative;
+    bottom: 10rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.bottom .icon {    
+    transform: translateY(0.5rem);
+    margin-right: 1rem;
+}
+
+.bottom::before, .bottom::after {
+    content: "";
+    width: 60%;
+    height: 2px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    transform: translateX(25%);
+}
+
+main {
+    display: grid;
+}
+
+main h1 {
+    font-size: 1.5rem;
+}
+
+main h1::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.others h1::after {
+    background-color: black;
+}
+
+main .icon {
+    margin-right: 1rem;
+    transform: translateY(15%);
+}
+
+main > div {
+    padding-left: 2rem;
+    align-self: center;
+}
+
+main .content {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+main .duration {
+    justify-self: center;
+}

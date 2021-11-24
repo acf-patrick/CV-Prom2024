@@ -1,0 +1,102 @@
+header
+{
+    align-items: center;
+    background-color:rgb(39,85,239);
+    display: flex;
+}
+#img-container
+{
+    width: 25%;
+}
+#names-container
+{
+    width: 75%;
+}
+.wrapper 
+{
+    width: 80%;
+    margin: auto;
+}
+.moi
+{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+#nom
+{
+    font-size: 3em;
+    padding-top:50px;
+}
+.slogan
+{
+    font-size: 1.2em;
+    padding-top:20px;
+    padding-bottom:40px
+}
+h2
+{
+    font-size:1.5em;
+}
+.math
+{
+    float:left;
+    padding-right:500px;
+}
+.bacc
+{
+    margin-left:70px;
+    padding-top:10px;
+}
+.english
+{
+    text-align:left;
+    padding-top:40px;
+    float:left;
+    padding-right:880px;
+    
+}
+.bepc
+{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+h5
+{
+    font-size: 0.8em;
+}
+.con
+{
+	float:left;
+	margin-right:400px;
+}
+.jeux
+{
+    padding-top:2px;
+}
+
+footer
+{
+    background-color:rgb(39,85,239);
+}
+footer div a padding
+{
+	display:inline;
+}
+.lastname, .firstname
+{
+    font-size:4em ;
+    font-weight: bold;
+}
+.row
+{
+    display: flex;
+}
+.col-6
+{
+    width: 50%;
+}
+.justify-content-center
+{
+    justify-content:space-evenly ;
+}

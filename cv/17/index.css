@@ -1,0 +1,48 @@
+.profile {
+    display: float;
+    background-color: rgb(116, 78, 56);
+    justify-content: center;
+}
+
+h3 {
+    background-color: rgb(44, 66, 66);
+    color: aquamarine;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.inner-div1 {
+    width: 40%;
+    float: left;
+    display: table-cell;
+    background-color: lightgray;
+    
+}
+
+.inner-div2 {
+    float: right;
+    display: table-cell;
+    width: 60%;
+    background-color: white;
+    
+}
+
+.head {
+    background-color: rgb(116, 78, 56);
+    color: aliceblue;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.date {
+    color: gray;
+}

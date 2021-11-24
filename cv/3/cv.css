@@ -1,0 +1,97 @@
+body{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteneur{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section{
+    padding-left: 20px;
+}
+.gauche{
+    background-color: rgba(23, 54, 194, 0.884);
+    width: 37%;
+
+
+}
+div.gauche ul li, div.gauche h1{
+    color: white;
+}
+
+.droite{
+    padding-left: 20px;
+    width: 50%;
+}
+
+.image{
+    border-radius: 50%;
+
+}
+
+.anarana{
+    font-size :xx-large;
+    font-weight: bold ;
+}
+
+.nom{
+    color:rgba(23, 54, 194, 0.884);
+}
+.sary{
+    text-align: center;
+}
+
+em{
+    color: gray;
+}
+section#contact div.container-contact {
+    width: 35%;
+}
+
+section#contact div.container-contact div.corps {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+ div.container-contact div.corps div.block {
+    padding: 15px;
+    display: flex;
+    position: relative;
+}
+
+ div.container-contact div.corps div.block:hover {
+    background-color: rgba(42, 126, 56, 0.801);
+}
+
+ div.container-contact div.corps div.block .icon {
+    width: 20%;
+}
+
+ div.container-contact div.corps div.block .description {
+    width: 80%;
+}
+
+ div.container-contact div.corps div.block .description h3,
+ div.container-contact div.corps div.block .description p {
+    margin: 0;
+}
+
+ div.container-contact div.corps div.block .description h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+ div.container-contact div.corps div.block .description p {
+    color: rgb(185, 185, 185);
+}
+
+ div.container-contact div.corps div.block .icon i::before {
+    font-size: 40px;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+}

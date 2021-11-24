@@ -1,0 +1,118 @@
+body{
+    display: flex;
+}
+.first_class{
+    display: inline-block;
+    width: 40%;
+    border-right: 1px solid rgb(10, 190, 250);
+}
+.second_class{
+    display: inline-block;
+    width: 56%;
+    margin-left: 2%;
+    
+}
+.haut_gauche{
+    background: rgb(10, 190, 250);
+
+}
+.nom{
+    padding-bottom: 20px;
+    margin-bottom: 0em;
+}
+.sary{
+    padding-top: 30px;
+    text-align: center;
+}
+.image{
+    border-radius: 50%;
+}
+.haut_gauche h1{
+    text-align: center;
+    color: aliceblue;
+}
+.haut_gauche h2{
+    text-align: center;
+    color: aliceblue;
+}
+.mon_address{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.text_address{
+    display: inline-block;
+    margin-left: 1px;
+}
+.ligne{
+    border: 1px solid rgb(10, 190, 250);
+    width: 90%;
+    /*margin-left : 60px;*/
+}
+.langues_malagasy{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right:2px 
+   
+}
+.langues_anglais{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right:14px 
+}
+.langues_francais{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right:10px 
+}
+.rond_positive{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(10, 190, 250);
+    margin-left: 4px;
+}
+.rond_negative{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 4px;
+}
+.bas_droite h2{
+    margin-bottom: 10px;
+    
+
+}
+.second_class h2{
+    margin-bottom: 10px;
+  
+}
+.formation p span{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: oblique;
+}*
+.html{
+    display: inline-block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 85px
+}
+.css{
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+.language_C{
+    display: inline-block;
+    margin-top: 0em;
+}
+.bas_droite h2{
+    font-size: 1.3em;
+}
+.second_class h2{
+    font-size: 1.3em;
+}

@@ -1,0 +1,85 @@
+.contact{
+    display: flex;
+}
+h3{
+    color: blue;
+    font-weight: bold;
+    margin: 0%
+}
+.objectif{
+    display: flex;
+}
+.education{
+    display: flex;
+}
+hr{
+    width: 100vh
+}
+.sary{
+    margin-left: 200px;
+}
+.momba{
+    margin-left: 200px;
+}
+.b{
+    margin-left: 20px;
+    width: 100%
+}
+.c{
+    margin-left: 15px;
+    width: 870px;
+}
+ul{
+    padding-left: 150px;
+}
+.informatique{
+    display: inline-block;
+}
+.pre_info{
+    display: inline-block;
+}
+.informatique{
+    display: flex;
+}
+.d{
+    width: 850px;
+}
+.first_ul{
+    padding-left: 50px;
+}
+.langue{
+    display: flex;
+}
+.e{
+    width: 900px;
+}
+.second_ul{
+    padding-left: 110px;
+}
+.competence{
+    display: flex;
+}
+.f{
+    width: 850px;
+}
+.third_ul{
+    padding-left: 60px;
+}
+.loisir{
+    display: flex;
+}
+.g{
+    width: 925px;
+}
+.quator_ul{
+    padding-left: 130px;
+}
+.name_color{
+    color: blue;
+}
+.a2018{
+    margin-top: 30px;
+}
+.a2017{
+    margin-top: 32px;
+}

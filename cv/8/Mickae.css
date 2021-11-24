@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+:root{
+  --color-title:rgba(17, 16, 16, 0.666);
+  --color-tsipika: rgba(41, 112, 167, 0.713);
+  --color-tstitle:rgba(17, 16, 16, 0.439);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-width:500px;
+}
+main{
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.604);
+    width: 65vw;
+    height: max-content;
+    position:absolute;
+    display: grid;
+    grid-template-columns:15% 35% 45%;
+    grid-template-rows:100%;
+    min-width:500px;
+}
+/*color bleu left*/
+.colorblue{
+    background-color:var(--color-tsipika);
+    height:100%;
+    width: 80%;
+}
+/*left*/
+main:nth-child(2),main:nth-child(3){
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5,max-content);
+    align-content: space-around;
+}
+.name{
+    color: var(--color-title);
+    font-weight: 600;
+    margin: .5em;
+    font-size:2vw;
+}
+.adr ul {
+    margin-left: .5em;
+}
+ul li{
+    margin: .6em 0;
+    margin-left: 1em;
+}
+h1{
+    color: var(--color-title);
+    font-size: 1.5vw;
+    margin: .6em 0;
+}
+/**competence de base/
+/*progress bar*/
+.prog_gris{
+    width: 30%;
+    height: .6em;
+    background-color: rgba(170, 170, 170, 0.213);
+    margin-top: 1em;
+}
+.prog_green{
+    background-color: rgba(25, 172, 103, 0.741);
+    height: .6em;
+}
+.content_progressbar .prog_gris{
+    margin: .6em 0;
+}
+.cl{width:66%}
+.js{width:50%}
+.html{width:70%}
+.cpp{width:50%}
+.word{width:10%}
+.malagasy{width:66%}
+.francais{width:50%}
+.anglais{width:15%}
+h5{
+    color: var(--color-tstitle);
+    margin: .5em 0;
+    font-size: 1vw;
+}
+/*right*/
+.profil h5{
+    line-height: 2;
+    text-indent: 2em;
+    text-align: justify;
+}
+span{
+    margin-left: 2em;
+}
+.formation{
+    margin-top:10em;
+}
+.formation h5{
+    line-height: 1.5;
+}
+.formation_title{
+    font-size: 1vw;
+}
+.projets{
+    margin-top:5em;
+}
+.right > div h1{
+    margin-left: 1.4em;
+}
+.right > div h5{
+    margin-left: 1em;
+}
+.right > div div{
+    margin-left: 1.4em;
+}
+.profil::after,.formation::after,.projets::after{
+    content: ' ';
+    position:absolute;
+    width: .3em;
+    height:25%;
+    top:5%;
+    background-color: var(--color-tsipika);
+    display: block;
+}
+.formation::after{
+    top:40%;
+    height: 30%;
+}
+.projets::after{
+    top:75%;
+    height: 20%;
+}
+.projets ul{
+    list-style: none;
+}
+.projets ul li {
+    margin-left: 2em;
+    color: var(--color-title);
+    font-size: 1.1vw;
+}
+.projets ul li a {
+   text-decoration: none;
+}

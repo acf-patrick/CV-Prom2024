@@ -1,0 +1,138 @@
+/*css pour la bordure du fond*/
+body
+{
+	font-family : Calibri, sans serif;
+}
+section
+{
+	display : inline-block;
+}
+ul
+{
+	list-style-type : none;
+}
+.bordure_cv
+{
+	border-width : 500px;
+	border-heigth : 800px;
+	border : 6px rgb(31, 73, 125) solid;
+	max-width : 650px;
+	min-width : 650px;
+	max-height : 800px;
+	min-height : 800px;
+}
+
+/*
+*CSS dans la section 1 
+*/
+figure img
+{
+	border-radius : 25px/25px;
+}
+.fond1_cv
+{
+	background-color : rgb(31, 73, 125);
+	color : white;
+	width : 280px;
+	height : 800px;
+	text-align : center;
+	position : relative;
+	top : -166px;
+}
+figcaption
+{
+	font-size : 36px;
+}
+.coordonnee
+{
+	font-size : 24px;
+}
+.numero
+{
+	font-weight : bold;
+}
+.mail, .lot
+{
+	font-size : 14px;
+}
+
+
+/*
+*CSS dans la section 2
+*/
+.fond2_cv
+{
+	width : 350px;
+	height : 800px;
+	
+}
+.formation, .qualite, .langue, .competence, .interet, .projet
+{
+	font-size : 20px;
+	color : rgb(31, 73, 125);
+	position : relative;
+	top : 10px;
+}
+.date
+{
+	margin-left : -40px;
+	position : relative;
+	top : 10px;
+	
+}
+.personnalite
+{
+	position : relative;
+	top : 30px;
+}
+.langage
+{
+	position : relative;
+	top : 50px;
+}
+.competence1
+{
+	position : relative;
+	top : 70px;
+}
+.projet1
+{
+	position : relative;
+	top : 90px;
+}
+.interet1
+{
+	position : relative;
+	top : 110px;
+}
+.qualite
+{
+	poition : relative;
+	top : 30px;
+}
+.langue
+{
+	position : relative;
+	top : 50px;
+}
+.competence
+{
+	position : relative;
+	top : 70px;
+}
+.projet
+{
+	position : relative;
+	top : 90px;
+}
+.interet
+{
+	position : relative;
+	top : 110px;
+}
+
+.date1, .date2, .date3, .malagasy, .francais, .anglais, .c, .java, .html, .lecture, .sport, .autre
+{
+	font-size : 12px;
+	color : rgb(31, 73, 125);
+}

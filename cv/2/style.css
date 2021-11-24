@@ -1,0 +1,58 @@
+body
+{
+    width: 780px;
+    margin: auto;
+}
+#Blue
+{
+    background-color: rgb(43, 42, 49);
+    width: 250px;
+    height: auto;
+    color: white;
+    float: left;
+}
+.Name
+{
+    text-align: center;
+}
+#autres
+{
+    float: right;
+}
+img
+{
+    width:100px;
+    margin-left: 30%;
+}
+h3
+{
+    background-color: rgb(25, 25, 31);
+}
+h3,.marg
+{
+    padding-left: 4%;
+}
+.bar4
+{
+    margin-left: 10px;
+    margin-right: 140px;
+    border-radius: 3px;
+}
+.bar6
+{
+    margin-left: 10px;
+    margin-right: 90px;
+    border-radius: 3px;
+}
+section
+{
+    background-color: white;
+}
+.education,.langue
+{
+    border-bottom: 1px solid black;
+}
+.education
+{
+    border-top: 1px solid black;
+}

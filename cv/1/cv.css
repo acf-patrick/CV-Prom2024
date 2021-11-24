@@ -1,0 +1,58 @@
+body{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteneur{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section{
+    padding-left: 20px;
+}
+.left{
+
+    background-color: rgba(52, 55, 233, 0.884);
+    width: 28%;
+
+
+}
+div.left ul li, div.left h1{
+    color: white;
+}
+.right{
+    padding-left: 20px;
+    width: 68%;
+}
+
+.article{
+    padding-left: 20px;
+    width: 68%;
+}
+
+.image{
+    margin-top: 50px;
+    
+
+}
+
+.nom{
+    font-size :xx-large;
+    font-weight: bold ;
+}
+
+.nom{
+    color:;
+}
+.sary{
+    text-align: center;
+}
+
+em{
+    color: gray;
+}
+.titre{
+    background-color: grey;
+}

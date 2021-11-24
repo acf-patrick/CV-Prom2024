@@ -1,0 +1,49 @@
+body{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteneur{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section{
+    padding-left: 20px;
+}
+.gauche{
+    background-color: rgba(18, 17, 80, 0.884);
+    width: 28%;
+
+
+}
+div.gauche ul li, div.gauche h1{
+    color: white;
+}
+
+.droite{
+    padding-left: 20px;
+    width: 68%;
+}
+
+.image{
+    border-radius: 50%;
+
+}
+
+.anarana{
+    font-size :xx-large;
+    font-weight: bold ;
+}
+
+.nom{
+    color:rgba(21, 17, 80, 0.884);
+}
+.sary{
+    text-align: center;
+}
+
+em{
+    color: gray;
+}

@@ -1,0 +1,65 @@
+body
+{
+    margin:auto;
+    width:100%;
+
+}
+div#fitambarany
+{
+    display:table;
+}
+
+div#avia
+{
+    background-color:rgb(32, 88, 103);
+    margin:left;
+    width: 300px;
+    height:100%;
+    display:table-cell;
+
+}
+
+div#avanana
+{
+    margin:right;
+    width:70%;
+    height:100%;
+    display:table-cell;
+    position:absolute;
+    top:Opx;
+    padding:40px;
+}
+
+div#ambony
+{
+    background-color:rgb(55,55,65);
+    font-weight:bold;
+    font-size:190%;
+    width:70%;
+    height:20%;
+    
+    padding:2px 150px 2px 250px;
+
+    
+}
+p.mod
+{
+    font-size:125%;
+}
+
+h1
+{
+    background-color:rgb(55,55,65);
+    font-size:140%;
+    text-align:center;
+
+}
+
+.sary {
+    display: block;
+    width: 90%;
+    height: 400px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 10rem;
+}

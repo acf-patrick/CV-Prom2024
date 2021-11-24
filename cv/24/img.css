@@ -1,0 +1,44 @@
+img:hover {
+  transform: rotate(10deg);
+  transition: 5ms;
+}
+a {
+  color: aliceblue;
+}
+
+.profile {
+    display: float;
+}
+
+.profile {
+    display: table;
+}
+
+.titre {
+    color: aliceblue !important;
+}
+
+.inner-div1 {
+  width: 30%;
+  margin-right: 0px;
+  display: table-cell;
+  background: #337ab7;
+  padding: 50px 50px;
+}
+.inner-div2 {
+  width: 70%;
+  display: table-cell;
+  padding: 50px 50px;
+  background-color: white !important;
+  min-height: auto;
+}
+
+.inner-div2 .text-primary{
+    background-color: #337ab7;
+    color: antiquewhite !important;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
