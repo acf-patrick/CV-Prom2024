@@ -47,8 +47,9 @@ h1 {
 ul { 
     width: 600px;
     list-style: none;
-    border-radius: 8px;
-    margin-bottom: 22px;
+    margin: auto;
+    /* border-radius: 8px;
+    margin-bottom: 22px; */
     border: 1px solid rgba(129, 129, 129, 0.418);
 }
 
