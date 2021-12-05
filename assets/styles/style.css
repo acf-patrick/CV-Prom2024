@@ -41,7 +41,8 @@ h1 {
     background-color: transparent;
     padding: 22px;
     overflow-x: scroll;
-    left:25%;
+    display: grid;
+    justify-items: center;
 }
 
 ul { 
